@@ -19,6 +19,8 @@ import {
   SiMysql,
   SiVercel,
   SiRender,
+  SiShadcnui,      
+  SiPostman,       
 } from "react-icons/si";
 
 interface SkillItem {
@@ -33,6 +35,7 @@ const skills: SkillItem[] = [
   { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
+  { name: "Shadcn UI", icon: SiShadcnui, color: "#FFFFFF" }, 
   { name: "Material UI", icon: SiMui, color: "#007FFF" },
   { name: "React.js", icon: FaReact, color: "#61DAFB" },
   { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
@@ -43,6 +46,7 @@ const skills: SkillItem[] = [
   { name: "MySQL", icon: SiMysql, color: "#4479A1" },
   { name: "Vercel", icon: SiVercel, color: "#FFFFFF" },
   { name: "Render", icon: SiRender, color: "#FFFFFF" },
+  { name: "Postman", icon: SiPostman, color: "#FF6C37" }, 
 ];
 
 export default function Skills() {
