@@ -189,7 +189,8 @@ export default function Projects() {
                     fill
                     className="object-contain"
                     sizes="(max-width: 768px) 100vw, 800px"
-                    priority
+                    priority={currentIndex === 0}
+                    loading={currentIndex === 0 ? "eager" : "lazy"}
                   />
                 </div>
                 <div className="p-6">

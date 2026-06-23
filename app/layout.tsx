@@ -19,9 +19,13 @@ export const metadata: Metadata = {
     default: "Yoskie Portfolio",
     template: "%s | Yoskie Portfolio",
   },
-  description: "Welcome to my portfolio – showcasing my skills, projects, and creative works.",
+  description:
+    "Welcome to my portfolio. This is where I showcase my work, ideas, and passion for creating meaningful digital experiences. Take a look around to explore my projects and see how I turn concepts into functional and user-friendly solutions.",
   keywords: ["portfolio", "web developer", "Yoskie", "creative", "projects"],
   authors: [{ name: "Yoskie" }],
+  icons: {
+    icon: "/Yoskie.png", 
+  },
 };
 
 export default function RootLayout({

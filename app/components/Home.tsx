@@ -32,7 +32,7 @@ export default function Home() {
   }, [displayedText, isDeleting, fullText]);
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-black px-4 sm:px-6 lg:px-8 py-16 relative">
+    <section id="home" className="min-h-screen flex items-center justify-center bg-black px-4 sm:px-6 lg:px-8 py-16 relative">
       <div className="absolute inset-0 bg-gradient-radial from-white/5 via-transparent to-transparent pointer-events-none" />
 
       <div className="mx-auto max-w-7xl w-full relative z-10">

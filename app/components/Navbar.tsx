@@ -19,7 +19,7 @@ const navLinks = [
   { href: "#services", label: "Services" },
   { href: "#skills", label: "Skills" },
   { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "ContactUs" },
+  { href: "#contactUs", label: "ContactUs" },
 ];
 
 export default function Navbar() {
@@ -40,6 +40,7 @@ export default function Navbar() {
     <nav className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/95 backdrop-blur supports-[backdrop-filter]:bg-black/60">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
+          {/* Logo */}
           <Link
             href="/"
             onClick={handleLogoClick}
