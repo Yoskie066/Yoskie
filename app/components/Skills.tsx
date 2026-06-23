@@ -10,6 +10,7 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 import {
+  SiTypescript,
   SiTailwindcss,
   SiMui,
   SiNextdotjs,
@@ -33,6 +34,7 @@ const skills: SkillItem[] = [
   { name: "HTML", icon: FaHtml5, color: "#E34F26" },
   { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
   { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
   { name: "Shadcn UI", icon: SiShadcnui, color: "#FFFFFF" }, 
