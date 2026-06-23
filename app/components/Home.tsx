@@ -60,9 +60,9 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg text-white/60 leading-relaxed">
-               Welcome to my portfolio. This is where I showcase my work, ideas, and passion
-               for creating meaningful digital experiences. Take a look around to explore my
-               projects and see how I turn concepts into functional and user-friendly solutions.
+              Welcome to my portfolio. This is where I showcase my work, ideas, and passion
+              for creating meaningful digital experiences. Take a look around to explore my
+              projects and see how I turn concepts into functional and user-friendly solutions.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -70,7 +70,12 @@ export default function Home() {
                 asChild
                 className="rounded-full bg-white text-black font-semibold px-8 py-3 h-auto text-sm shadow-lg transition-all hover:scale-105 hover:bg-black hover:text-white hover:shadow-white/10 border border-white/20"
               >
-                <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
+                <a
+                  href="/Einon_Cris_O.Alcantara-Resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FileText className="mr-2 h-4 w-4" />
                   CV Resume
                 </a>
@@ -78,7 +83,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Profile image  */}
+          {/* Profile image */}
           <motion.div
             className="flex-shrink-0"
             initial={{ opacity: 0, scale: 0.8 }}
