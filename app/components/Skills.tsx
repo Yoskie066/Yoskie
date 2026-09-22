@@ -5,9 +5,11 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJs,
+  FaPhp,
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaLaravel,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -15,13 +17,15 @@ import {
   SiMui,
   SiNextdotjs,
   SiExpress,
+  SiPrisma,
   SiMongodb,
   SiPostgresql,
   SiMysql,
   SiVercel,
   SiRender,
-  SiShadcnui,      
-  SiPostman,       
+  SiShadcnui,
+  SiPostman,
+  SiDocker,
 } from "react-icons/si";
 
 interface SkillItem {
@@ -34,21 +38,25 @@ const skills: SkillItem[] = [
   { name: "HTML", icon: FaHtml5, color: "#E34F26" },
   { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
   { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
+  { name: "PHP", icon: FaPhp, color: "#777BB4" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "Git", icon: FaGitAlt, color: "#F05032" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-  { name: "Shadcn UI", icon: SiShadcnui, color: "#FFFFFF" }, 
+  { name: "Shadcn UI", icon: SiShadcnui, color: "#FFFFFF" },
   { name: "Material UI", icon: SiMui, color: "#007FFF" },
   { name: "React.js", icon: FaReact, color: "#61DAFB" },
   { name: "Next.js", icon: SiNextdotjs, color: "#FFFFFF" },
   { name: "Node.js", icon: FaNodeJs, color: "#339933" },
   { name: "Express.js", icon: SiExpress, color: "#FFFFFF" },
+  { name: "Laravel", icon: FaLaravel, color: "#FF2D20" },
+  { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
   { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
   { name: "PostgreSQL", icon: SiPostgresql, color: "#4169E1" },
   { name: "MySQL", icon: SiMysql, color: "#4479A1" },
   { name: "Vercel", icon: SiVercel, color: "#FFFFFF" },
   { name: "Render", icon: SiRender, color: "#FFFFFF" },
-  { name: "Postman", icon: SiPostman, color: "#FF6C37" }, 
+  { name: "Postman", icon: SiPostman, color: "#FF6C37" },
+  { name: "Docker", icon: SiDocker, color: "#2496ED" },
 ];
 
 export default function Skills() {

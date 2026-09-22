@@ -103,6 +103,30 @@ const projects: Project[] = [
       "Vercel",
     ],
   },
+  {
+    title: "MindFul",
+    description:
+      "MindFul is an AI-powered wellness and journaling platform designed to help users track their mental well-being. It features a user-friendly dashboard for creating journal entries, an AI assistant for personalized insights, and a comprehensive history log. The admin side provides powerful tools for analytics, user management, journal management, and AI management, offering a complete solution for monitoring and supporting user engagement. The platform is built with a modern, responsive UI and a secure, scalable backend.",
+    image: "/MindFul.png",
+    github: "https://github.com/Yoskie066/MindFul",
+    demo: "https://mind-ful-rose.vercel.app/",
+    techStack: [
+      "HTML",
+      "CSS",
+      "Git",
+      "TypeScript",
+      "React.js",
+      "Material UI",
+      "Express.js",
+      "Prisma",
+      "MySQL",
+      "RESTful API",
+      "OAuth",
+      "Gemini API",
+      "Render",
+      "Vercel",
+    ],
+  },
 ];
 
 export default function Projects() {

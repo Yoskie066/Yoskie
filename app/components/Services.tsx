@@ -18,37 +18,37 @@ const services = [
     icon: <Code2 className="w-6 h-6" />,
     title: "Frontend Development",
     description:
-      "Building responsive, interactive, and user-friendly interfaces using React, Next.js, and modern CSS frameworks.",
+      "Building responsive UIs with React, Next.js, TypeScript, Tailwind CSS, Material UI, and Shadcn UI.",
   },
   {
     icon: <Server className="w-6 h-6" />,
     title: "Backend Development",
     description:
-      "Developing robust server-side applications with Node.js, Express, and databases like MongoDB and PostgreSQL.",
+      "Developing server-side apps with Node.js, Express.js, PHP, Laravel, and Prisma ORM.",
   },
   {
     icon: <LinkIcon className="w-6 h-6" />,
     title: "API Integration",
     description:
-      "Designing and integrating RESTful APIs and third-party services to connect frontend and backend seamlessly.",
+      "Integrating RESTful APIs, OAuth authentication, and third-party services.",
   },
   {
     icon: <Cloud className="w-6 h-6" />,
     title: "Deployment & Hosting",
     description:
-      "Deploying and managing web applications on cloud platforms such as Vercel and Render",
+      "Deploying web apps on Vercel and Render with Docker, Git, and cloud databases.",
   },
   {
     icon: <Layout className="w-6 h-6" />,
     title: "UI/UX Design",
     description:
-      "Creating intuitive and aesthetically pleasing user interfaces with a focus on user experience and accessibility.",
+      "Designing clean interfaces with Material UI, Shadcn UI, and Tailwind CSS — responsive and accessible.",
   },
   {
     icon: <Layers className="w-6 h-6" />,
-    title: "FullStack Development",
+    title: "Full-Stack Development",
     description:
-      "End-to-end web development using the MERN and PERN stacks, from database design to frontend implementation.",
+      "End-to-end development using MERN, PERN, and PHP/Laravel stacks with MongoDB, PostgreSQL, and MySQL.",
   },
 ];
 
