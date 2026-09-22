@@ -4,7 +4,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="relative bg-black text-white overflow-hidden py-20 sm:py-28 lg:py-32">
+    <section
+      id="about"
+      className="relative overflow-hidden bg-black py-20 text-white sm:py-28 lg:py-32"
+    >
       <style jsx>{`
         @keyframes borderGlow {
           0% {
@@ -20,81 +23,41 @@ export default function About() {
             box-shadow: 0 0 0px rgba(200, 200, 200, 0);
           }
         }
+
         .glowing-border {
           animation: borderGlow 2.5s ease-in-out infinite;
         }
       `}</style>
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.3 }}
-          className="text-center max-w-4xl mx-auto"
+          className="mx-auto max-w-4xl text-center"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white">
+          <h2 className="text-3xl font-black tracking-tight text-white sm:text-4xl lg:text-5xl">
             About <span className="text-white/90">Me</span>
           </h2>
 
-          <div className="w-20 h-0.5 bg-white/60 mx-auto mt-4 mb-8" />
+          <div className="mx-auto mt-4 mb-8 h-0.5 w-20 bg-white/60" />
 
-          <div className="bg-black/80 backdrop-blur-sm border border-white/20 rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xl glowing-border">
-            <div className="space-y-5 text-white/80 leading-relaxed text-base sm:text-lg text-left">
+          <div className="glowing-border rounded-2xl border border-white/20 bg-black/80 p-6 shadow-xl backdrop-blur-sm sm:p-8 lg:p-10">
+            <div className="space-y-6 text-left text-base leading-relaxed text-white/80 sm:text-lg">
               <p>
-                Hi! I&apos;m <strong className="text-white">Einon Cris O. Alcantara</strong>, a Computer Science graduate
-                from Cavite State University – Cavite City Campus. I am passionate about
-                Fullstack Developer, with a primary focus on building modern, scalable,
-                and user-centric web applications.
+                Hi! I&apos;m{" "}
+                <strong className="text-white">Einon Cris O. Alcantara</strong>, a
+                Computer Science graduate from Cavite State University – Cavite
+                City Campus and a <strong className="text-white">Full-Stack Web Developer</strong> focused on building modern, scalable, and user-centered web applications using <strong className="text-white">React, Next.js, Node.js, Express.js, MongoDB, PostgreSQL,</strong> and <strong className="text-white">MySQL</strong>.
               </p>
 
               <p>
-                My journey in software development began in <strong className="text-white">2022</strong> during my
-                internship at Melham Construction Corporation, where I served as a team
-                co-leader developing the company&apos;s official website. In <strong className="text-white">2023</strong>,
-                I deepened my backend engineering foundation through an active developer
-                community—learning <strong className="text-white">PHP</strong>, <strong className="text-white">Laravel</strong>, and{" "}
-                <strong className="text-white">MySQL</strong> while building structured MVC web servers
-                complete with controllers, routes, middleware, and database migrations.
+                I&apos;ve gained hands-on experience through an internship, online community, bootcamp and personal projects , developing applications with <strong className="text-white">REST APIs, authentication and authorization, Role-Based Access Control (RBAC), database integration, analytics, file management,</strong> and <strong className="text-white">AI-powered features</strong>, including <strong className="text-white">File Tracker</strong>, <strong className="text-white">Waste Track</strong>, <strong className="text-white">SixOneCafe</strong>, and <strong className="text-white">MindFul</strong>.
               </p>
 
               <p>
-                To expand my full-stack capabilities, I completed an intensive 6-month
-                bootcamp at <strong className="text-white">Uplift Code Camp</strong> in <strong className="text-white">2024</strong>,
-                specializing in the <strong className="text-white">MERN stack</strong> (MongoDB, Express.js,
-                React, Node.js) and serving as the Frontend Developer for the Careerly
-                Application group capstone project.
-              </p>
-
-              <p>
-                In <strong className="text-white">2025</strong>, I broadened my technical architecture by
-                exploring <strong className="text-white">Next.js</strong>, <strong className="text-white">TypeScript</strong>,{" "}
-                <strong className="text-white">PostgreSQL</strong>, and <strong className="text-white">Prisma</strong>. I applied
-                these concepts alongside the MERN stack to architect my undergraduate
-                thesis—<strong className="text-white">File Tracker</strong>, a web-based Management Information System
-                (MIS) designed for academic file routing, deadline monitoring, and
-                administrative audit logging for CvSU - Cavite City Campus.
-              </p>
-
-              <p>
-                In <strong className="text-white">2026</strong>, I continue to push my engineering capabilities by
-                building diverse production-grade projects. These include{" "}
-                <strong className="text-white">Waste Track</strong>, a full-stack PERN SaaS platform
-                featuring dual-authentication (JWT/Google Auth), Role-Based Access Control
-                (RBAC), and PostgreSQL analytics with Excel export capabilities;{" "}
-                <strong className="text-white">SixOneCafe</strong>, a high-performance, mobile-responsive
-                landing page built with Next.js and Tailwind CSS to establish digital
-                branding for a local business; and <strong className="text-white">MindFul</strong>, an AI-powered
-                mental wellness platform integrating the Gemini API, Prisma ORM, MySQL,
-                and Material UI for personalized daily tracking and analytics.
-              </p>
-
-              <p>
-                I thrive on solving real-world challenges through code, architecting clean
-                backend systems, and crafting intuitive user experiences. My goal is to
-                contribute as a high-impact <strong className="text-white">Software Developer</strong> and grow
-                into a <strong className="text-white">Software Engineer</strong>, delivering scalable solutions
-                alongside collaborative tech teams.
+                I enjoy solving real-world problems through code, designing reliable backend systems, and creating intuitive user experiences. I&apos;m currently seeking opportunities as a <strong className="text-white">Junior Full-Stack Developer</strong> or <strong className="text-white">Web Developer</strong>, where I can contribute to a collaborative engineering team while continuing to grow toward becoming a <strong className="text-white">Software Engineer</strong>.
               </p>
             </div>
           </div>

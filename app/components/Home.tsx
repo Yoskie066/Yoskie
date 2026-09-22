@@ -60,9 +60,10 @@ export default function Home() {
             </h1>
 
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg text-white/60 leading-relaxed">
-              Welcome to my portfolio. This is where I showcase my work, ideas, and passion
-              for creating meaningful digital experiences. Take a look around to explore my
-              projects and see how I turn concepts into functional and user-friendly solutions.
+              Full-Stack Web Developer with experience building responsive web applications using React,
+              Next.js, Node.js, Express.js, MongoDB, and PostgreSQL. Skilled in developing user-focused 
+              interfaces, integrating REST APIs, and creating scalable web solutions from frontend to 
+              backend.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
