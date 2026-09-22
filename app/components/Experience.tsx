@@ -11,7 +11,6 @@ interface ExperienceItem {
   title: string;
   company: string;
   icon: React.ElementType;
-  description: string;
   highlights: string[];
   techStack?: string[];
 }
@@ -19,12 +18,10 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     year: "2022",
-    duration: "2 months",
-    title: "Internship / Team Co-Leader",
+    duration: "July – August 2022",
+    title: "Internship / Co-Leader",
     company: "Melham Construction Corporation",
     icon: Briefcase,
-    description:
-      "Started my professional journey as an intern and co-leader of a small development team tasked with building the company's official website. Contributed to planning, development, and deployment while ensuring all deliverables met the client's expectations.",
     highlights: [
       "Co-developed the MCC Website Webpage as the team's main project",
       "Prepared progress reports to track project milestones and team output",
@@ -35,49 +32,44 @@ const experiences: ExperienceItem[] = [
   },
   {
     year: "2023",
-    duration: "5 months",
+    duration: "January – May 2023",
     title: "Backend Developer",
     company: "Online Community",
     icon: Code2,
-    description:
-      "Joined an online developer community where I collaborated on various projects and learned the fundamentals of backend development. This was where I first encountered PHP, Laravel, and MySQL — building real systems from scratch, including web servers with structured architecture.",
     highlights: [
       "Built web servers with controllers, routes, and middleware architecture",
       "Implemented database migrations using Laravel and MySQL",
       "Configured local development environments using XAMPP",
-      "Contributed to collaborative and open-source side projects",
+      "Contributed to collaborative and open-source projects with co-members",
     ],
     techStack: ["PHP", "Laravel", "MySQL", "XAMPP"],
   },
   {
     year: "2024",
-    duration: "6 months",
+    duration: "July – December 2024",
     title: "Bootcamp / Full-Stack Development",
     company: "Uplift Code Camp",
     icon: GraduationCap,
-    description:
-      "Completed an intensive 6-month full-stack development bootcamp focused on the MERN stack. Built production-ready web applications and worked on a group capstone project called Careerly Application, where I served as a Frontend Developer.",
     highlights: [
-      "Completed 6 months of rigorous full-stack training",
-      "Served as Frontend Developer for the Careerly Application group project",
+      "Completed 6 months of rigorous full-stack training focused on the MERN stack",
+      "Served as Frontend Developer for the Careerly Application group project (November – December 2024)",
       "Created multiple web apps with React, Node.js, Express.js, and MongoDB",
       "Applied Tailwind CSS for responsive and modern UI design",
     ],
-    techStack: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+    techStack: ["React", "Tailwind CSS" , "Node.js", "Express.js", "MongoDB", "RestAPI" , "Gemini API", "Git"],
   },
   {
     year: "2025",
-    duration: "10 months",
+    duration: "March 2025 – 2026",
     title: "Freelance Developer",
     company: "Self-Employed",
     icon: Rocket,
-    description:
-      "Expanded my technical foundation by exploring modern technologies beyond the MERN stack, then applied this knowledge to build my undergraduate thesis — File Tracker, a Management Information System for academic file and task monitoring.",
     highlights: [
-      "Explored modern technologies including Next.js, TypeScript, Prisma, and Docker",
-      "Developed File Tracker — my undergraduate thesis (2025–2026)",
-      "Built a Management Information System with faculty and admin roles for tracking academic files and deadlines",
-      "Implemented an analytics dashboard using the MERN stack with Chart.js",
+      "Explored and applied modern web tech (March–July 2025), building sample apps using Next.js, TypeScript and PostgreSQL to broaden full-stack capabilities",
+      "Architected and built File Tracker (Sept 2025–2026), a web-based Management Information System (MIS) for CvSU - Cavite City Campus to centralize academic document workflows and deadline tracking",
+      "Engineered Role-Based Access Control (RBAC) in File Tracker using the MERN stack for Faculty and Admin (IT Secretary) roles, incorporating full file lifecycle management (File Upload, Task Deliverable, Archiving, and History)",
+      "Built an Admin Analytics Dashboard with Chart.js and Tailwind CSS for File Tracker to monitor department-wide submission rates for core task deliverables (Syllabus, TOS, Exams, Instructional Materials)",
+      "Developed an automated notice & notification system for File Tracker to deliver real-time deadline reminders to faculty and send instant upload alerts to administrators",
     ],
     techStack: [
       "React",
@@ -88,34 +80,38 @@ const experiences: ExperienceItem[] = [
       "Tailwind CSS",
       "Next.js",
       "TypeScript",
-      "Prisma",
-      "Docker",
+      "PostgreSQL",
+      "RestAPI",
+      "Git"
     ],
   },
   {
     year: "2026",
-    duration: "6 months · Ongoing",
+    duration: "March 2026 – September 2026",
     title: "Personal Projects",
-    company: "Self-Initiated",
+    company: "Self-Employed",
     icon: Sparkles,
-    description:
-      "Applied the modern technologies I explored in 2025 by building diverse full-stack projects that showcase different stacks, design approaches, and problem domains. Each project uses a different tech combination, demonstrating flexibility across the modern web ecosystem.",
     highlights: [
-      "Developed Waste Track — a PERN stack SaaS platform applying Express.js and PostgreSQL",
-      "Created SixOneCafe Landing Page — an UI-focused project applying Next.js and Framer Motion",
-      "Built MindFul — an AI-powered wellness platform applying Prisma, MySQL, and the Gemini API",
-      "Continuously exploring modern tools: TypeScript, Docker, Material UI, and Shadcn UI",
+      "Architected and built Waste Track (March–June 2026), a full-stack waste management platform featuring dual-authentication (JWT & Google Auth), Role-Based Access Control (RBAC), interactive activity timeline, and PostgreSQL-powered Admin Analytics with Excel data exports",
+      "Designed and deployed SixOneCafe (June–July 2026), a high-performance, mobile-responsive landing page for a local business in Cavite, featuring conversion-focused menu showcases and customer testimonials using Next.js and Tailwind CSS",
+      "Developed MindFul (September 2026), an AI-driven mental wellness platform integrating Gemini API to generate context-aware guidance based on user dashboard analytics, daily mood, energy levels, and stress logs",
+      "Engineered a centralized Admin Operations Hub and daily journaling system for MindFul using Prisma ORM, MySQL, Material UI, and Node.js to oversee user accounts, aggregate journal trends, and audit AI interaction logs",
     ],
     techStack: [
       "React",
+      "TailwindCSS",
+      "Material UI",
       "Next.js",
       "TypeScript",
+      "Node.js",
       "Express.js",
       "Prisma",
+      "Chart.js",
       "PostgreSQL",
       "MySQL",
-      "Docker",
+      "RestAPI",
       "Gemini API",
+      "Git"
     ],
   },
 ];
@@ -184,10 +180,6 @@ export default function Experience() {
                     </CardHeader>
 
                     <CardContent className="space-y-4">
-                      <p className="text-white/70 text-sm leading-relaxed">
-                        {exp.description}
-                      </p>
-
                       {/* Highlights */}
                       <ul className="space-y-2">
                         {exp.highlights.map((item, i) => (

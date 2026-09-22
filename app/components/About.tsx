@@ -42,58 +42,59 @@ export default function About() {
           <div className="bg-black/80 backdrop-blur-sm border border-white/20 rounded-2xl p-6 sm:p-8 lg:p-10 shadow-xl glowing-border">
             <div className="space-y-5 text-white/80 leading-relaxed text-base sm:text-lg text-left">
               <p>
-                Hi! I'm <strong className="text-white">Einon Cris O. Alcantara</strong>, a Computer Science graduate
-                from Cavite State University – Cavite City Campus. I'm passionate about
-                technology and software development, with a strong focus on building
-                modern, scalable, and user-friendly web applications.
+                Hi! I&apos;m <strong className="text-white">Einon Cris O. Alcantara</strong>, a Computer Science graduate
+                from Cavite State University – Cavite City Campus. I am passionate about
+                Fullstack Developer, with a primary focus on building modern, scalable,
+                and user-centric web applications.
               </p>
 
               <p>
-                My journey started in <strong className="text-white">2022</strong> during my internship at
-                Melham Construction Corporation, where I served as a team co-leader
-                building the company's official website. The following year, I dove into
-                backend development through an online community — learning <strong className="text-white">PHP</strong>,
-                <strong className="text-white"> Laravel</strong>, and <strong className="text-white">MySQL</strong> while building web servers with
-                proper MVC architecture, controllers, routes, middleware, and database
-                migrations.
+                My journey in software development began in <strong className="text-white">2022</strong> during my
+                internship at Melham Construction Corporation, where I served as a team
+                co-leader developing the company&apos;s official website. In <strong className="text-white">2023</strong>,
+                I deepened my backend engineering foundation through an active developer
+                community—learning <strong className="text-white">PHP</strong>, <strong className="text-white">Laravel</strong>, and{" "}
+                <strong className="text-white">MySQL</strong> while building structured MVC web servers
+                complete with controllers, routes, middleware, and database migrations.
               </p>
 
               <p>
-                In <strong className="text-white">2024</strong>, I completed an intensive 6-month full-stack bootcamp
-                at <strong className="text-white">Uplift Code Camp</strong>, where I mastered the <strong className="text-white">MERN Stack</strong>
-                (MongoDB, Express.js, React, and Node.js) and served as Frontend Developer
-                for the Careerly Application group project. Since then, I've expanded into
-                the <strong className="text-white">PERN Stack</strong> (PostgreSQL, Express.js, React, and Node.js) and
-                explored modern tools like <strong className="text-white">Next.js</strong>, <strong className="text-white">TypeScript</strong>, and <strong className="text-white">Prisma</strong>.
+                To expand my full-stack capabilities, I completed an intensive 6-month
+                bootcamp at <strong className="text-white">Uplift Code Camp</strong> in <strong className="text-white">2024</strong>,
+                specializing in the <strong className="text-white">MERN stack</strong> (MongoDB, Express.js,
+                React, Node.js) and serving as the Frontend Developer for the Careerly
+                Application group capstone project.
               </p>
 
               <p>
-                In <strong className="text-white">2025</strong>, I expanded my technical foundation by exploring modern
-                technologies beyond the MERN stack, then applied this knowledge to build
-                my undergraduate thesis — <strong className="text-white">File Tracker</strong>, a Management Information
-                System for academic file and task monitoring with faculty and admin roles.
+                In <strong className="text-white">2025</strong>, I broadened my technical architecture by
+                exploring <strong className="text-white">Next.js</strong>, <strong className="text-white">TypeScript</strong>,{" "}
+                <strong className="text-white">PostgreSQL</strong>, and <strong className="text-white">Prisma</strong>. I applied
+                these concepts alongside the MERN stack to architect my undergraduate
+                thesis—<strong className="text-white">File Tracker</strong>, a web-based Management Information System
+                (MIS) designed for academic file routing, deadline monitoring, and
+                administrative audit logging for CvSU - Cavite City Campus.
               </p>
 
               <p>
-                Today, I'm applying the technologies I explored by building diverse
-                projects that showcase different stacks and design approaches — including
-                <strong className="text-white"> Waste Track</strong> (PERN SaaS platform), <strong className="text-white">SixOneCafe</strong> (modern
-                landing page), and <strong className="text-white">MindFul</strong> (AI-powered wellness and journaling
-                platform with Gemini API).
+                In <strong className="text-white">2026</strong>, I continue to push my engineering capabilities by
+                building diverse production-grade projects. These include{" "}
+                <strong className="text-white">Waste Track</strong>, a full-stack PERN SaaS platform
+                featuring dual-authentication (JWT/Google Auth), Role-Based Access Control
+                (RBAC), and PostgreSQL analytics with Excel export capabilities;{" "}
+                <strong className="text-white">SixOneCafe</strong>, a high-performance, mobile-responsive
+                landing page built with Next.js and Tailwind CSS to establish digital
+                branding for a local business; and <strong className="text-white">MindFul</strong>, an AI-powered
+                mental wellness platform integrating the Gemini API, Prisma ORM, MySQL,
+                and Material UI for personalized daily tracking and analytics.
               </p>
 
               <p>
-                I enjoy solving real-world problems through code, continuously learning
-                new technologies, and improving my craft as a developer. Whether it's
-                crafting intuitive user experiences on the frontend or architecting
-                robust backend systems, I'm always eager to take on new challenges.
-              </p>
-
-              <p>
-                My goal is to grow into a highly skilled <strong className="text-white">Software Developer</strong> and
-                eventually pursue a career as a <strong className="text-white">Software Engineer</strong>, where I can
-                contribute to innovative projects, build impactful solutions, and grow
-                alongside a talented team of professionals.
+                I thrive on solving real-world challenges through code, architecting clean
+                backend systems, and crafting intuitive user experiences. My goal is to
+                contribute as a high-impact <strong className="text-white">Software Developer</strong> and grow
+                into a <strong className="text-white">Software Engineer</strong>, delivering scalable solutions
+                alongside collaborative tech teams.
               </p>
             </div>
           </div>

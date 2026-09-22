@@ -36,7 +36,7 @@ const services = [
     icon: <Cloud className="w-6 h-6" />,
     title: "Deployment & Hosting",
     description:
-      "Deploying web apps on Vercel and Render with Docker, Git, and cloud databases.",
+      "Deploying web apps on Vercel and Render with Git and cloud databases.",
   },
   {
     icon: <Layout className="w-6 h-6" />,

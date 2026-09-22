@@ -25,7 +25,6 @@ import {
   SiRender,
   SiShadcnui,
   SiPostman,
-  SiDocker,
 } from "react-icons/si";
 
 interface SkillItem {
@@ -56,7 +55,6 @@ const skills: SkillItem[] = [
   { name: "Vercel", icon: SiVercel, color: "#FFFFFF" },
   { name: "Render", icon: SiRender, color: "#FFFFFF" },
   { name: "Postman", icon: SiPostman, color: "#FF6C37" },
-  { name: "Docker", icon: SiDocker, color: "#2496ED" },
 ];
 
 export default function Skills() {
