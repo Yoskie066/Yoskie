@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { FileText } from "lucide-react";
+import { FileText, FolderGit2 } from "lucide-react";
 
 export default function Home() {
   const fullText = "FullStack Web Developer";
@@ -69,7 +69,7 @@ export default function Home() {
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <Button
                 asChild
-                className="rounded-full bg-white text-black font-semibold px-8 py-3 h-auto text-sm shadow-lg transition-all hover:scale-105 hover:bg-black hover:text-white hover:shadow-white/10 border border-white/20"
+                className="w-full sm:w-auto sm:min-w-[180px] justify-center rounded-full bg-white text-black font-semibold px-8 py-3 h-auto text-sm shadow-lg transition-all hover:scale-105 hover:bg-black hover:text-white hover:shadow-white/10 border border-white/20"
               >
                 <a
                   href="/Einon_Cris_O.Alcantara-Resume.pdf"
@@ -79,6 +79,16 @@ export default function Home() {
                 >
                   <FileText className="mr-2 h-4 w-4" />
                   CV Resume
+                </a>
+              </Button>
+
+              <Button
+                asChild
+                className="w-full sm:w-auto sm:min-w-[180px] justify-center rounded-full bg-transparent text-white font-semibold px-8 py-3 h-auto text-sm shadow-lg transition-all hover:scale-105 hover:bg-white hover:text-black hover:shadow-white/10 border border-white/20"
+              >
+                <a href="#projects">
+                  <FolderGit2 className="mr-2 h-4 w-4" />
+                  Projects
                 </a>
               </Button>
             </div>

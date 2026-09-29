@@ -109,7 +109,7 @@ const projects: Project[] = [
       "MindFul is an AI-powered wellness and journaling platform designed to help users track their mental well-being. It features a user-friendly dashboard for creating journal entries, an AI assistant for personalized insights, and a comprehensive history log. The admin side provides powerful tools for analytics, user management, journal management, and AI management, offering a complete solution for monitoring and supporting user engagement. The platform is built with a modern, responsive UI and a secure, scalable backend.",
     image: "/MindFul.png",
     github: "https://github.com/Yoskie066/MindFul",
-    demo: "https://mind-ful-rose.vercel.app/",
+    demo: "https://mind-ful-rho.vercel.app/",
     techStack: [
       "HTML",
       "CSS",
@@ -189,7 +189,7 @@ export default function Projects() {
           viewport={{ once: true, amount: 0.2 }}
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white">
-            My <span className="text-white/90">Projects</span>
+            Featured <span className="text-white/90">Projects</span>
           </h2>
           <div className="w-20 h-0.5 bg-white/60 mx-auto mt-4" />
         </motion.div>
