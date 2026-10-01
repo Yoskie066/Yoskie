@@ -72,7 +72,7 @@ export default function Home() {
                 className="w-full sm:w-auto sm:min-w-[180px] justify-center rounded-full bg-white text-black font-semibold px-8 py-3 h-auto text-sm shadow-lg transition-all hover:scale-105 hover:bg-black hover:text-white hover:shadow-white/10 border border-white/20"
               >
                 <a
-                  href="/Einon_Cris_O.Alcantara-Resume.pdf"
+                  href="/Einon_Cris_O_Alcantara_Resume.pdf"
                   download
                   target="_blank"
                   rel="noopener noreferrer"
