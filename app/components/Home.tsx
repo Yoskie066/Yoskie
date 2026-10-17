@@ -61,8 +61,8 @@ export default function Home() {
 
             <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg text-white/60 leading-relaxed">
               Full-Stack Web Developer with experience building responsive web applications using React,
-              Next.js, Node.js, Express.js, MongoDB, and PostgreSQL. Skilled in developing user-focused 
-              interfaces, integrating REST APIs, and creating scalable web solutions from frontend to 
+              Next.js, Node.js, Express.js, MongoDB, and PostgreSQL. Skilled in developing user-focused
+              interfaces, integrating REST APIs, and creating scalable web solutions from frontend to
               backend.
             </p>
 
@@ -103,7 +103,7 @@ export default function Home() {
           >
             <div className="relative w-56 h-56 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
               <div className="absolute inset-0 rounded-full bg-white/5 blur-2xl" />
-              
+
               <div className="relative w-full h-full rounded-full overflow-hidden border border-white/10 shadow-2xl shadow-white/5">
                 <Image
                   src="/Einon_Profile.jpg"
